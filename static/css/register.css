@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.hero{
+    width:100%;
+    min-height:100vh;
+
+    background-image: url("../images/bentley-mulliner-batur-1-1661342912.avif");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+    background-attachment:fixed;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    position:relative;
+}
+.hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.55);
+}
+#register{
+    background-color: rgba(0, 0, 255,0.5);
+    height: auto;
+    width: 100wh;
+    max-width: 90vh;
+    min-width: 300px;
+    z-index: 999;
+   /* / display: flex; */
+   padding: 20px;
+   padding-bottom: 15px;
+}
+.logo img{
+    height:120px;
+}
+.logo{
+    text-align: center;
+}
+#register div form table{
+    /* text-align: center; */
+    /* table-layout: auto; */
+    /* margin-left:5%; */
+    display: flex;
+    
+}
+#register div form table select,input{
+    text-align: center;
+     padding: 10px;
+     border-radius: 20px;
+    min-width: 200px;
+    /* display: flex; */
+    /* align-items:first baseline; */
+    font-weight: 500;
+}
+ #submit{
+    margin-left: 20%;
+    margin-top: 5%;   
+ }
+#otpSection button{
+    padding: 5%;
+    border-radius: 10px;
+    margin: 1rem;
+    box-sizing: content-box;
+     
+}
+/* #otp button{
+    
+     
+} */
+
+/* change password page style */
+
+
+

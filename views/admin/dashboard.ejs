@@ -1,0 +1,856 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Rent & Ride - Admin Dashboard</title>
+
+    <link rel="stylesheet"
+          href="../css/carowner.dashboard.css">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+</head>
+
+
+<body>
+   
+
+<div class="dashboard">
+
+
+    <!-- ================= SIDEBAR ================= -->
+
+    <aside class="sidebar">
+
+
+        <div class="logo">
+
+            <div class="logo-icon">
+                R
+            </div>
+
+            <div>
+
+                <h2>
+                    Rent<span>&</span>Ride
+                </h2>
+
+                <p>
+                    Admin Panel
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <nav>
+
+            <p class="menu-title">
+                ADMIN MENU
+            </p>
+
+
+            <a href="#" class="menu active">
+                <span>⌂</span>
+                Dashboard
+            </a>
+
+
+            <a href="#" class="menu">
+                <span>👥</span>
+                Users
+            </a>
+ <h1>hii</h1>
+<p> name : <%= data.name %></p>
+    <p>email : <%= data.email %></p>
+
+            <a href="#" class="menu">
+                <span>🚗</span>
+                Vehicles
+            </a>
+
+
+            <a href="#" class="menu">
+                <span>📋</span>
+                Bookings
+            </a>
+
+
+            <a href="#" class="menu">
+                <span>₹</span>
+                Payments
+            </a>
+
+
+            <a href="#" class="menu">
+                <span>📊</span>
+                Reports
+            </a>
+
+
+            <p class="menu-title account-title">
+                SYSTEM
+            </p>
+
+
+            <a href="#" class="menu">
+                <span>⚙</span>
+                Settings
+            </a>
+
+
+        </nav>
+
+
+        <div class="sidebar-bottom">
+
+
+            <div class="help-box">
+
+                <div class="help-icon">
+                    ?
+                </div>
+
+                <div>
+
+                    <strong>
+                        Admin Support
+                    </strong>
+
+                    <p>
+                        Contact support
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <a href="/logout" class="logout">
+                ↪ &nbsp; Logout
+            </a>
+
+
+        </div>
+
+
+    </aside>
+
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main class="main">
+
+
+        <!-- TOPBAR -->
+
+        <header class="topbar">
+
+
+            <div class="search">
+
+                <span>⌕</span>
+
+                <input
+                    type="text"
+                    placeholder="Search users, vehicles..."
+                >
+
+            </div>
+
+
+            <div class="top-right">
+
+
+                <button class="notification">
+                    🔔
+                    <i></i>
+                </button>
+
+
+                <div class="user">
+
+
+                    <div class="avatar">
+                        A
+                    </div>
+
+
+                    <div class="user-info">
+
+                        <strong>
+                            Aman Kumar
+                        </strong>
+
+                        <small>
+                            Administrator
+                        </small>
+
+                    </div>
+
+
+                    <span>
+                        ⌄
+                    </span>
+
+
+                </div>
+
+
+            </div>
+
+
+        </header>
+
+
+
+        <!-- CONTENT -->
+
+        <section class="content">
+
+
+            <!-- WELCOME -->
+
+            <div class="welcome">
+
+                <div>
+
+                    <p class="small-title">
+                        ADMIN DASHBOARD
+                    </p>
+
+                    <h1>
+                        Welcome back, Admin 👋
+                    </h1>
+
+                    <p class="subtitle">
+                        Here's what's happening across Rent & Ride.
+                    </p>
+
+                </div>
+
+
+                <a href="#" class="primary-btn">
+                    View Reports
+                </a>
+
+            </div>
+
+
+
+            <!-- ================= STAT CARDS ================= -->
+
+            <div class="stats">
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon blue">
+                        👥
+                    </div>
+
+                    <div>
+
+                        <p>
+                            Total Users
+                        </p>
+
+                        <h2>
+                            2,840
+                        </h2>
+
+                        <small class="green-text">
+                            ↑ 6.4%
+                        </small>
+
+                        <small>
+                            this month
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon green">
+                        🚗
+                    </div>
+
+                    <div>
+
+                        <p>
+                            Total Vehicles
+                        </p>
+
+                        <h2>
+                            684
+                        </h2>
+
+                        <small>
+                            48 pending approval
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon orange">
+                        📋
+                    </div>
+
+                    <div>
+
+                        <p>
+                            Total Bookings
+                        </p>
+
+                        <h2>
+                            5,492
+                        </h2>
+
+                        <small class="green-text">
+                            ↑ 14.2%
+                        </small>
+
+                        <small>
+                            this month
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon purple">
+                        ₹
+                    </div>
+
+                    <div>
+
+                        <p>
+                            Platform Revenue
+                        </p>
+
+                        <h2>
+                            ₹8.42L
+                        </h2>
+
+                        <small>
+                            Current month
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- ================= GRID ================= -->
+
+            <div class="dashboard-grid">
+
+
+                <!-- RECENT BOOKINGS -->
+
+                <div class="card">
+
+
+                    <div class="card-header">
+
+                        <div>
+
+                            <h3>
+                                Recent Bookings
+                            </h3>
+
+                            <p>
+                                Latest platform activity
+                            </p>
+
+                        </div>
+
+
+                        <a href="#">
+                            View All →
+                        </a>
+
+                    </div>
+
+
+                    <div class="booking">
+
+
+                        <div class="booking-icon">
+                            🚘
+                        </div>
+
+
+                        <div class="booking-info">
+
+                            <strong>
+                                Hyundai Creta
+                            </strong>
+
+                            <small>
+                                Aman Kumar • #RR1024
+                            </small>
+
+                            <small>
+                                Oct 03, 2026
+                            </small>
+
+                        </div>
+
+
+                        <strong>
+                            ₹4,200
+                        </strong>
+
+
+                        <span class="confirmed">
+                            Confirmed
+                        </span>
+
+
+                    </div>
+
+
+                    <div class="booking">
+
+
+                        <div class="booking-icon">
+                            🏍️
+                        </div>
+
+
+                        <div class="booking-info">
+
+                            <strong>
+                                Royal Enfield 350
+                            </strong>
+
+                            <small>
+                                Rahul Sharma • #RR1023
+                            </small>
+
+                            <small>
+                                Oct 03, 2026
+                            </small>
+
+                        </div>
+
+
+                        <strong>
+                            ₹1,200
+                        </strong>
+
+
+                        <span class="pending">
+                            Pending
+                        </span>
+
+
+                    </div>
+
+
+                    <div class="booking">
+
+
+                        <div class="booking-icon">
+                            🚙
+                        </div>
+
+
+                        <div class="booking-info">
+
+                            <strong>
+                                Tata Nexon
+                            </strong>
+
+                            <small>
+                                Priya Verma • #RR1022
+                            </small>
+
+                            <small>
+                                Oct 02, 2026
+                            </small>
+
+                        </div>
+
+
+                        <strong>
+                            ₹5,850
+                        </strong>
+
+
+                        <span class="completed">
+                            Completed
+                        </span>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- QUICK ACTION -->
+
+                <div class="card">
+
+
+                    <div class="card-header">
+
+                        <div>
+
+                            <h3>
+                                Pending Actions
+                            </h3>
+
+                            <p>
+                                Items requiring attention
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="admin-actions">
+
+
+                        <a href="#">
+
+                            <div class="action-icon orange">
+                                🚗
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    Vehicle Approvals
+                                </strong>
+
+                                <small>
+                                    48 vehicles waiting
+                                </small>
+
+                            </div>
+
+                            <b>
+                                →
+                            </b>
+
+                        </a>
+
+
+                        <a href="#">
+
+                            <div class="action-icon blue">
+                                👥
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    User Verification
+                                </strong>
+
+                                <small>
+                                    16 users waiting
+                                </small>
+
+                            </div>
+
+                            <b>
+                                →
+                            </b>
+
+                        </a>
+
+
+                        <a href="#">
+
+                            <div class="action-icon green">
+                                📋
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    Booking Issues
+                                </strong>
+
+                                <small>
+                                    5 unresolved issues
+                                </small>
+
+                            </div>
+
+                            <b>
+                                →
+                            </b>
+
+                        </a>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- ================= PLATFORM OVERVIEW ================= -->
+
+            <div class="card overview">
+
+
+                <div class="card-header">
+
+                    <div>
+
+                        <h3>
+                            Platform Overview
+                        </h3>
+
+                        <p>
+                            Current Rent & Ride statistics
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="overview-grid">
+
+
+                    <div class="overview-item">
+
+                        <span>
+                            Active Rentals
+                        </span>
+
+                        <strong>
+                            186
+                        </strong>
+
+                        <div class="progress">
+                            <i style="width:72%"></i>
+                        </div>
+
+                    </div>
+
+
+                    <div class="overview-item">
+
+                        <span>
+                            Available Vehicles
+                        </span>
+
+                        <strong>
+                            450
+                        </strong>
+
+                        <div class="progress">
+                            <i style="width:66%"></i>
+                        </div>
+
+                    </div>
+
+
+                    <div class="overview-item">
+
+                        <span>
+                            Verified Owners
+                        </span>
+
+                        <strong>
+                            412
+                        </strong>
+
+                        <div class="progress">
+                            <i style="width:81%"></i>
+                        </div>
+
+                    </div>
+
+
+                    <div class="overview-item">
+
+                        <span>
+                            Successful Bookings
+                        </span>
+
+                        <strong>
+                            94.8%
+                        </strong>
+
+                        <div class="progress">
+                            <i style="width:95%"></i>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================= RECENT USERS ================= -->
+
+            <div class="card">
+
+
+                <div class="card-header">
+
+                    <div>
+
+                        <h3>
+                            Recently Registered Users
+                        </h3>
+
+                        <p>
+                            Latest users on the platform
+                        </p>
+
+                    </div>
+
+                    <a href="#">
+                        Manage Users →
+                    </a>
+
+                </div>
+
+
+                <div class="users">
+
+
+                    <div class="user-row">
+
+                        <div class="avatar">
+                            R
+                        </div>
+
+                        <div>
+                            <strong>
+                                Rahul Sharma
+                            </strong>
+
+                            <small>
+                                rahul@example.com
+                            </small>
+                        </div>
+
+                        <span class="verified">
+                            Verified
+                        </span>
+
+                        <small>
+                            Oct 03, 2026
+                        </small>
+
+                    </div>
+
+
+                    <div class="user-row">
+
+                        <div class="avatar">
+                            P
+                        </div>
+
+                        <div>
+                            <strong>
+                                Priya Verma
+                            </strong>
+
+                            <small>
+                                priya@example.com
+                            </small>
+                        </div>
+
+                        <span class="verified">
+                            Verified
+                        </span>
+
+                        <small>
+                            Oct 02, 2026
+                        </small>
+
+                    </div>
+
+
+                    <div class="user-row">
+
+                        <div class="avatar">
+                            V
+                        </div>
+
+                        <div>
+                            <strong>
+                                Vikash Kumar
+                            </strong>
+
+                            <small>
+                                vikash@example.com
+                            </small>
+                        </div>
+
+                        <span class="pending-user">
+                            Pending
+                        </span>
+
+                        <small>
+                            Oct 02, 2026
+                        </small>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+</html>
+ 

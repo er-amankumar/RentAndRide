@@ -1,0 +1,620 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rent & Ride - Owner Dashboard</title>
+
+    <link rel="stylesheet"  href="../css/carowner.dashboard.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <div class="logo-icon">R</div>
+
+            <div>
+                <h2>Rent<span>&</span>Ride</h2>
+                <p>Drive Anywhere. Rent Anytime.</p>
+            </div>
+        </div>
+
+
+        <nav>
+
+            <p class="menu-title">OWNER MENU</p>
+
+            <a href="#" class="menu active">
+                <span>⌂</span>
+                Dashboard
+            </a>
+
+            <a href="#" class="menu">
+                <span>🚗</span>
+                My Vehicles
+            </a>
+
+            <a href="#" class="menu">
+                <span>📋</span>
+                Booking Requests
+            </a>
+
+            <a href="#" class="menu">
+                <span>₹</span>
+                Earnings
+            </a>
+
+            <a href="#" class="menu">
+                <span>📊</span>
+                Analytics
+            </a>
+
+
+            <p class="menu-title account-title">ACCOUNT</p>
+
+            <a href="#" class="menu">
+                <span>👤</span>
+                Profile
+            </a>
+
+            <a href="#" class="menu">
+                <span>⚙</span>
+                Settings
+            </a>
+
+        </nav>
+
+
+        <div class="sidebar-bottom">
+
+            <div class="help-box">
+
+                <div class="help-icon">?</div>
+
+                <div>
+                    <strong>Need Help?</strong>
+                    <p>Contact support</p>
+                </div>
+
+            </div>
+
+            <a href="/logout" class="logout">
+                ↪ &nbsp; Logout
+            </a>
+
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN -->
+
+    <main class="main">
+
+        <!-- TOPBAR -->
+
+        <header class="topbar">
+
+            <div class="search">
+                <span>⌕</span>
+
+                <input
+                    type="text"
+                    placeholder="Search bookings, vehicles..."
+                >
+            </div>
+
+
+            <div class="top-right">
+
+                <button class="notification">
+                    🔔
+                    <i></i>
+                </button>
+
+                <div class="user">
+
+                    <div class="avatar">
+                        A
+                    </div>
+
+                    <div class="user-info">
+
+                        <strong>Aman Kumar</strong>
+
+                        <small>Vehicle Owner</small>
+
+                    </div>
+
+                    <span>⌄</span>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- CONTENT -->
+
+        <section class="content">
+
+
+            <!-- WELCOME -->
+
+            <div class="welcome">
+
+                <div>
+
+                    <p class="small-title">
+                        OWNER DASHBOARD
+                    </p>
+
+                    <h1>
+                        Welcome back, Aman 👋
+                    </h1>
+
+                    <p class="subtitle">
+                        Manage your vehicles, bookings and earnings.
+                    </p>
+
+                </div>
+
+
+                <a href="#" class="primary-btn">
+                    + Add Vehicle
+                </a>
+
+            </div>
+
+
+            <!-- STATS -->
+
+            <div class="stats">
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon blue">
+                        🚗
+                    </div>
+
+                    <div>
+
+                        <p>My Vehicles</p>
+
+                        <h2>08</h2>
+
+                        <small>
+                            2 currently rented
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon green">
+                        📋
+                    </div>
+
+                    <div>
+
+                        <p>Total Bookings</p>
+
+                        <h2>24</h2>
+
+                        <small class="green-text">
+                            ↑ 12.4%
+                        </small>
+
+                        <small>
+                            this month
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon orange">
+                        ₹
+                    </div>
+
+                    <div>
+
+                        <p>This Month</p>
+
+                        <h2>₹42,800</h2>
+
+                        <small class="green-text">
+                            ↑ 9.8%
+                        </small>
+
+                        <small>
+                            vs last month
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon purple">
+                        ★
+                    </div>
+
+                    <div>
+
+                        <p>Average Rating</p>
+
+                        <h2>4.8</h2>
+
+                        <small>
+                            From 96 reviews
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <!-- GRID -->
+
+            <div class="dashboard-grid">
+
+
+                <!-- BOOKING REQUESTS -->
+
+                <div class="card">
+
+                    <div class="card-header">
+
+                        <div>
+
+                            <h3>Recent Booking Requests</h3>
+
+                            <p>Manage your incoming bookings</p>
+
+                        </div>
+
+                        <a href="#">
+                            View All →
+                        </a>
+
+                    </div>
+
+
+                    <div class="request">
+
+                        <div class="vehicle-icon">
+                            🚘
+                        </div>
+
+                        <div class="request-info">
+
+                            <strong>
+                                Hyundai Creta
+                            </strong>
+
+                            <small>
+                                Requested by Rahul Sharma
+                            </small>
+
+                            <small>
+                                Oct 04 - Oct 06
+                            </small>
+
+                        </div>
+
+                        <span class="pending">
+                            Pending
+                        </span>
+
+                    </div>
+
+
+                    <div class="request">
+
+                        <div class="vehicle-icon">
+                            🏍️
+                        </div>
+
+                        <div class="request-info">
+
+                            <strong>
+                                Royal Enfield Classic
+                            </strong>
+
+                            <small>
+                                Requested by Rohan Singh
+                            </small>
+
+                            <small>
+                                Oct 05 - Oct 05
+                            </small>
+
+                        </div>
+
+                        <span class="pending">
+                            Pending
+                        </span>
+
+                    </div>
+
+
+                    <div class="request">
+
+                        <div class="vehicle-icon">
+                            🚙
+                        </div>
+
+                        <div class="request-info">
+
+                            <strong>
+                                Tata Nexon
+                            </strong>
+
+                            <small>
+                                Requested by Priya Verma
+                            </small>
+
+                            <small>
+                                Oct 07 - Oct 09
+                            </small>
+
+                        </div>
+
+                        <span class="approved">
+                            Confirmed
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- QUICK ACTION -->
+
+                <div class="card">
+
+                    <div class="card-header">
+
+                        <div>
+
+                            <h3>Quick Actions</h3>
+
+                            <p>Manage your business</p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="quick-actions">
+
+                        <a href="#">
+
+                            <div>🚗</div>
+
+                            <span>
+                                <strong>Add Vehicle</strong>
+                                <small>List a new vehicle</small>
+                            </span>
+
+                            <b>→</b>
+
+                        </a>
+
+
+                        <a href="#">
+
+                            <div>📋</div>
+
+                            <span>
+                                <strong>Booking Requests</strong>
+                                <small>Review pending requests</small>
+                            </span>
+
+                            <b>→</b>
+
+                        </a>
+
+
+                        <a href="#">
+
+                            <div>₹</div>
+
+                            <span>
+                                <strong>View Earnings</strong>
+                                <small>Track your income</small>
+                            </span>
+
+                            <b>→</b>
+
+                        </a>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- VEHICLES -->
+
+            <div class="card vehicles">
+
+                <div class="card-header">
+
+                    <div>
+
+                        <h3>My Vehicles</h3>
+
+                        <p>Your listed vehicles</p>
+
+                    </div>
+
+                    <a href="#">
+                        Manage Vehicles →
+                    </a>
+
+                </div>
+
+
+                <div class="vehicle-grid">
+
+
+                    <div class="vehicle-card">
+
+                        <div class="vehicle-photo">
+                            🚘
+                        </div>
+
+                        <div class="vehicle-content">
+
+                            <div class="vehicle-title">
+
+                                <h3>Hyundai Creta</h3>
+
+                                <span class="available">
+                                    Available
+                                </span>
+
+                            </div>
+
+                            <p>
+                                Automatic • Petrol
+                            </p>
+
+                            <div class="vehicle-bottom">
+
+                                <strong>
+                                    ₹2,100/day
+                                </strong>
+
+                                <span>
+                                    ★ 4.9
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="vehicle-card">
+
+                        <div class="vehicle-photo">
+                            🏍️
+                        </div>
+
+                        <div class="vehicle-content">
+
+                            <div class="vehicle-title">
+
+                                <h3>Royal Enfield 350</h3>
+
+                                <span class="rented">
+                                    Rented
+                                </span>
+
+                            </div>
+
+                            <p>
+                                350cc • Petrol
+                            </p>
+
+                            <div class="vehicle-bottom">
+
+                                <strong>
+                                    ₹1,200/day
+                                </strong>
+
+                                <span>
+                                    ★ 4.8
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="vehicle-card">
+
+                        <div class="vehicle-photo">
+                            🚙
+                        </div>
+
+                        <div class="vehicle-content">
+
+                            <div class="vehicle-title">
+
+                                <h3>Tata Nexon</h3>
+
+                                <span class="available">
+                                    Available
+                                </span>
+
+                            </div>
+
+                            <p>
+                                Manual • Petrol
+                            </p>
+
+                            <div class="vehicle-bottom">
+
+                                <strong>
+                                    ₹1,800/day
+                                </strong>
+
+                                <span>
+                                    ★ 4.7
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+</html>
+ 

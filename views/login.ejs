@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="../static/js/style.js"></script>
+</head>
+<body>
+      <section class="hero">
+        <div id="loginpage">
+            <div class="logo">
+                <img src="../images/logo.png" alt="logo">
+            </div>
+             <div>
+    <form action="login" method="post">
+        <label for="email">Enter email: </label>
+        <input type="email" name="email" id=""><br>
+        <label for="password">Enter password: </label>
+        <input type="text" name="password" id=""><br>
+        <select name="role" id="">
+            <option value="user">User</option>
+            <option value="carOwner">Car Owner</option>
+            <option value="admin">Admin</option>
+            
+        </select>
+        <input type="submit" id="loginsubmit">
+    </form>
+    </div>
+    <div>
+        <a href="/forgotpassword"> Forgot Password</a>
+    <a href="/register">SignUp</a>
+    </div>
+    </div>
+    
+    </section>
+</body>
+</html>

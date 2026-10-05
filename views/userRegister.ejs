@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> user register</title>
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+<body>
+    <div class="hero">
+        <div id="register">
+            <div class="logo">
+                <img src="../images/logo.png" alt="logo">
+            </div>
+            <div>
+    <form action="register" method="post">
+        <table>
+            <tr>
+        <td>  Name : </td>
+        <td> 
+        <input type="text" name="name" id="" placeholder="Enter Name"> </td>
+             </tr>
+         
+        <tr>
+        <td>  Email : </td>
+        <td><input type="email" name="email" id="" placeholder="Enter Email"></td>
+        </tr> 
+        <tr>
+       <td>   Number : </td>
+       <td><input type="number" name="number" id="" placeholder="Enter Number"></td>
+    </tr>
+    <tr>
+       <td>  Password : </td>
+       <td><input type="text" name="password" id="" placeholder="Enter Password"></td> </tr>
+       <tr>
+        <td>Select</td>
+        <td>
+        <select name="role">
+            <option value="user">user</option>
+            <option value="admin">admin</option>
+            <option value="carOwner">carOwner</option>
+        </select> </td>
+        
+        </tr>
+        </table>
+         
+        <input id="submit" type="submit"> 
+        
+    </form>
+            </div>
+    </div>
+    </div>
+</body>
+</html>
